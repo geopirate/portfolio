@@ -60,6 +60,9 @@ li {
 span{
   margin: 0 10px;
 }
+img{
+  width: 550px;
+}
 /* I pretty much just did a media query to increase the size of the carosel placeholder.  I will absolutley work on this more over the weekend, but I know how it works.*/
 @media screen and (min-width: 900px) {
   .projects div{
