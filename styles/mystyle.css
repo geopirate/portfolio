@@ -31,6 +31,8 @@ h1{
   text-decoration: none;
 }
 a{
+  text-decoration: none;
+  color: black;
   text-align: center;
   padding: 0 10px;
   margin: 1px;
@@ -41,16 +43,38 @@ ul{
 li{
   display: inline-block;
 }
-div{
+.projects div{
   background-color: gray;
   height: 300px;
-  width:300px;
+  width: 300px;
   display: inline-block;
 }
 article{
   display: inline-block;
 }
-#about{
-    height: 180px;
-
+li {
+  padding: 10px;
+  background: #9cdaf0;
+  border-radius: 5px;
+}
+span{
+  margin: 0 10px;
+}
+/* I pretty much just did a media query to increase the size of the carosel placeholder.  I will absolutley work on this more over the weekend, but I know how it works.*/
+@media screen and (min-width: 900px) {
+  .projects div{
+    background-color: gray;
+    height: 600px;
+    width: 600px;
+    display: inline-block;
+  }
+  .projects h2{
+    display: none;
+  }
+}
+/* double wide for big screens! */
+@media screen and (min-width: 1600px) {
+  .projects div{
+    width: 1300px;
+  }
 }
