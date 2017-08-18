@@ -48,6 +48,7 @@ li{
   height: 300px;
   width: 300px;
   display: inline-block;
+  margin: auto;
 }
 article{
   display: inline-block;
@@ -61,7 +62,7 @@ span{
   margin: 0 10px;
 }
 /* I pretty much just did a media query to increase the size of the carosel placeholder.  I will absolutley work on this more over the weekend, but I know how it works.*/
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 650px) {
   .projects div{
     background-color: gray;
     height: 600px;
