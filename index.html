@@ -9,6 +9,14 @@
   <link rel="stylesheet" href="styles/base.css">
   <link rel="stylesheet" href="styles/layout.css">
   <link rel="stylesheet" href="styles/modules.css">
+
+  <script id="picture-template" type="text/x-handlebars-template">
+    {{#pictures}}
+   <div class="{{order}}">
+     <img src="{{picture}}">
+     {{/pictures}}
+  </script>
+
 </head>
 <body>
   <header>
@@ -75,6 +83,7 @@
     </ul>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
   <script src="scripts/portfolio.js"></script>
 </body>
 </html>

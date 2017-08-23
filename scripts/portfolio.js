@@ -1,5 +1,9 @@
 var projectScripts = {};
 
+projectScripts.pictures = function(){
+
+}
+
 projectScripts.tabs = function(){
   $('header li').on('click', function() {
     var $tabSelection = $(this).data('content');
@@ -15,14 +19,14 @@ projectScripts.carosel = function(){
   var $input = $('input[name=selection]');
   // for wider screens I show 2 images at once!
   // edge case: inital load of double wide only shows one image
-function doubleWide(temp){
-  if ($('.double')){
-    var temp2 = parseInt(temp) + 1;
-    // if we are at the end, show the first image again
-    if (temp2 >= $input.length){ temp2 = 1; }
-    $('.double img:nth-child('+ temp2 +')').fadeIn(500);
+  function doubleWide(temp){
+    if ($('.double')){
+      var temp2 = parseInt(temp) + 1;
+      // if we are at the end, show the first image again
+      if (temp2 >= $input.length){ temp2 = 1; }
+      $('.double img:nth-child('+ temp2 +')').fadeIn(500);
+    }
   }
-}
   $('input[name=selection]').on('change', function(){
     $img.slideUp(500).delay(490);
     $img2.slideUp(500).delay(490);
@@ -38,5 +42,6 @@ function doubleWide(temp){
 
 $(document).ready(function(){
   projectScripts.tabs();
+  projectScripts.pictures();
   projectScripts.carosel();
 })
