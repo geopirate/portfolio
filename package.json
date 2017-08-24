@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio site",
+  "main": "server.js",
+  "scripts": {
+    "test": "NoTestsYet",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geopirate/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "website"
+  ],
+  "author": "George Gaylor",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/geopirate/portfolio/issues"
+  },
+  "homepage": "https://github.com/geopirate/portfolio#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
