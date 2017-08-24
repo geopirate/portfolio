@@ -1,8 +1,10 @@
 var projectScripts = {};
 
-projectScripts.pictures = function(){
-
-}
+/*projectScripts.pictures = function(){
+  let template = $('#picture-template').html();
+  let templateRender = Handlebars.compile(template);
+  return templateRender(this);
+}*/
 
 projectScripts.tabs = function(){
   $('header li').on('click', function() {
