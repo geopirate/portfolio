@@ -64,7 +64,6 @@ form {
   vertical-align: bottom;
 }
 input[type="radio"]{
-  /*display: inline-block;*/
   width: 40px;
   vertical-align: bottom;
 }
@@ -79,7 +78,7 @@ input[type="radio"]{
 .photos div:nth-child(2){
   display: none;
 }
-/* I pretty much just did a media query to increase the size of the carosel placeholder.  I will absolutley work on this more over the weekend, but I know how it works.*/
+/* This is for larger phones */
 @media screen and (min-width: 650px) {
   .photos div{
     background-color: gray;
@@ -91,6 +90,7 @@ input[type="radio"]{
     width: 450px
   }
 }
+/* This is for tablets */
 @media screen and (min-width: 950px) {
   header{
     flex-direction: row;
@@ -108,23 +108,21 @@ input[type="radio"]{
   }
   .photos div{
     background-color: gray;
-    height: 600px;
-    width: 600px;
-    /*display: inline-block;*/
+    height: 550px;
+    width: 550px;
   }
   img{
-    width: 550px
-  }
-  .photos div:nth-child(2){
-    display: none;
+    width: 500px
   }
 }
-/* double wide for big screens! */
-@media screen and (min-width: 1550px) {
+/* double wide for big screens! (desktop) */
+@media screen and (min-width: 1250px) {
   .photos div:nth-child(2){
     display: inline-block;
   }
-  dd{
-    display:inline;
+  section{
+    width: 95%;
+    align-items: center;
+    text-align: center;
   }
 }
