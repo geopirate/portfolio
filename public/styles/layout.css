@@ -11,14 +11,14 @@ header{
   border-color: #9cdaf0;
   padding-bottom: 20px;
 }
-.photos div{
+#carousel div{
   background-color: gray;
   width: 90%;
   display: inline-block;
   vertical-align: middle;
   padding: 20px;
 }
-.photos div:nth-child(2){
+#carousel div:nth-child(2){
   display: none;
 }
 @media screen and (min-width: 710px) {
@@ -29,24 +29,21 @@ header{
     flex-wrap: wrap;
     min-height: 75px;
   }
-  .photos div{
+  #carousel div{
     width: 75%;
   }
 }
 @media screen and (min-width: 950px) {
-  .photos div{
+  #carousel div{
     width: 60%;
   }
-/*  .photos div:nth-child(2){
-    display: none;
-  }*/
 }
 /* double wide for big screens! */
 @media screen and (min-width: 1200px) {
-  .photos div{
+  #carousel div{
     width: 45%;
   }
-  .photos div:nth-child(2){
+  #carousel div:nth-child(2){
     display: inline-block;
   }
 }
