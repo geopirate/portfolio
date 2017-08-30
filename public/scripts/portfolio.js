@@ -4,7 +4,7 @@ var projectScripts = {};
   let template = $('#picture-template').html();
   let templateRender = Handlebars.compile(template);
   return templateRender(this);
-}*/
+}
 
 projectScripts.tabs = function(){
   $('header li').on('click', function() {
@@ -13,7 +13,7 @@ projectScripts.tabs = function(){
     $('.' + $tabSelection).fadeIn(50);
   })
   $('header li:first').click();
-}
+}*/
 
 projectScripts.carosel = function(){
   var $img = $('.single img');
@@ -43,7 +43,7 @@ projectScripts.carosel = function(){
 }
 
 $(document).ready(function(){
-  projectScripts.tabs();
-  projectScripts.pictures();
+  //projectScripts.tabs();
+  //projectScripts.pictures();
   projectScripts.carosel();
 })
