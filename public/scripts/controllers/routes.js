@@ -2,7 +2,7 @@
 
 var app = app || {};
 
-page('/', app.caroselController.init);
+page('/', app.carouselController.init);
 page('/about', app.aboutController.init);
 page('/projects', app.projectsController.init);
 

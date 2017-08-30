@@ -4,7 +4,7 @@ var app = app || {};
 (function(module) {
   const pictureView = {};
 
-  pictureView.carosel = function(){
+  pictureView.carousel = function(){
     var $img = $('.single img');
     var $img2 = $('.double img');
     var $input = $('input[name=selection]');
@@ -32,7 +32,7 @@ var app = app || {};
   }
 
   pictureView.initIndexPage = () => {
-    pictureView.carosel();
+    pictureView.carousel();
   };
 
   module.pictureView = pictureView;
