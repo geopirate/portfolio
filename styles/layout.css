@@ -3,6 +3,13 @@ header{
   display: flex;
   flex-direction: column;
   min-height: 150px;
+  top: 0px;
+  position: sticky;
+  background-color: #020202;
+  border-bottom: thick;
+  border: solid;
+  border-color: #9cdaf0;
+  padding-bottom: 20px;
 }
 .photos div{
   background-color: gray;
