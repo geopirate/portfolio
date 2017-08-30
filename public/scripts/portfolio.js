@@ -1,5 +1,11 @@
 var projectScripts = {};
 
+/*projectScripts.pictures = function(){
+  let template = $('#picture-template').html();
+  let templateRender = Handlebars.compile(template);
+  return templateRender(this);
+}*/
+
 projectScripts.tabs = function(){
   $('header li').on('click', function() {
     var $tabSelection = $(this).data('content');
@@ -38,5 +44,6 @@ projectScripts.carosel = function(){
 
 $(document).ready(function(){
   projectScripts.tabs();
+  projectScripts.pictures();
   projectScripts.carosel();
 })
