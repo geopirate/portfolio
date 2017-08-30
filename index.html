@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="George Gaylor Jr" />
+  <title>George Gaylor Portfolio</title>
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/modules.css">
+  <link rel="icon"
+      type="image/png"
+      href="/img/code-fellows-logo.png">
+</head>
+<body>
+  <header>
+    <h1>George Gaylor</h1>
+    <ul>
+      <li data-content="photos"><a href="#">Photos</a></li>
+      <li data-content="projects"><a href="#">Projects</a></li>
+      <li data-content="about"><a href="#">About</a></li>
+    </ul>
+  </header>
+
+  <section class="photos">
+    <div class="single">
+      <img src="img/george.jpg">
+      <img src="img/petsite.png">
+      <img src="img/carrot.jpg">
+      <img src="img/turnip.jpg">
+      <img src="img/radish.jpg">
+      <img src="img/sylar.jpg">
+    </div>
+    <div class="double">
+      <img src="img/george.jpg">
+      <img src="img/petsite.png">
+      <img src="img/carrot.jpg">
+      <img src="img/turnip.jpg">
+      <img src="img/radish.jpg">
+      <img src="img/sylar.jpg">
+    </div>
+      <br>
+      <br>
+      <form>
+      <input type="radio" name="selection" value="1" checked></input>
+      <input type="radio" name="selection" value="2"></input>
+      <input type="radio" name="selection" value="3"></input>
+      <input type="radio" name="selection" value="4"></input>
+      <input type="radio" name="selection" value="5"></input>
+      <input type="radio" name="selection" value="6"></input>
+    </form>
+  </section>
+
+  <section class="projects">
+    <article>
+      <a href="https://geopirate.github.io/PetSite/index.html">
+        <img src="img/petsite.png">
+      </a>
+    </article>
+    <br>
+    <article>Project 2</article>
+    <article>Project 3</article>
+    <article>Project 4</article>
+  </section>
+  <section class="about">
+    <p>I am a developer with a Computer Information Systems Degree and I'm still finding my place in the industry.  I am better with compiled languages like Java or C#, but I'm currently working to improve with JavaScript.</p>
+    <p>My interests include open source, back end development, databases, Linux and gaming</p>
+    <p>My hobbies are primarily a direct reflection of my interests and I also enjoy spending time with my family.</p>
+  </section>
+
+  <footer>
+
+    <ul>
+      <li><a href="https://linkedin.com/in/georgegaylorjr">LinkedIn</a></li>
+      <span>&copy; George Gaylor Jr<span>
+      <li><a href="https://github.com/geopirate">Github</a></li>
+    </ul>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="scripts/portfolio.js"></script>
+</body>
+</html>
