@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "georgegaylorportfolio",
   "version": "1.0.0",
   "description": "My portfolio site",
   "main": "server.js",
@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/geopirate/portfolio#readme",
   "dependencies": {
-    "express": "^4.15.4"
-  }
+    "express": "^4.15.4",
+    "express-request-proxy": "^2.0.0"
+  },
+  "devDependencies": {}
 }
