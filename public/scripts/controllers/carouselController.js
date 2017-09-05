@@ -4,8 +4,7 @@ var app = app || {};
 (function(module) {
   const carouselController = {};
 
-  carouselController.init = function() {
-    //(app.pictureView.carousel);
+  carouselController.init = () => {
     $('.content').hide();
     $('#carousel').fadeIn();
   }
