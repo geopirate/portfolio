@@ -44,7 +44,9 @@ ul{
 }
 li {
   padding: 10px;
+  display: inline-block;
+}
+li.nav {
   background: #9cdaf0;
   border-radius: 5px;
-  display: inline-block;
 }

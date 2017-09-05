@@ -7,6 +7,7 @@ var app = app || {};
   projectsController.init = () => {
     $('.content').hide();
     $('#projects').fadeIn();
+    app.repos.requestRepos(app.repoView.index);
   }
 
   module.projectsController = projectsController;

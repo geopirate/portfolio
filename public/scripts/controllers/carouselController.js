@@ -7,6 +7,7 @@ var app = app || {};
   carouselController.init = () => {
     $('.content').hide();
     $('#carousel').fadeIn();
+    app.carouselView.carousel();
   }
 
   module.carouselController = carouselController;
