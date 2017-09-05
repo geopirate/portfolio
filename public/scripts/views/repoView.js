@@ -3,20 +3,15 @@ var app = app || {};
 
 (function(module) {
   const repoView = {};
-  console.log('in repo view');
-  const ui = function() {
-    let $projects = $('#projects');
-    $projects.find('ul').empty();
-    $projects.show().siblings().hide();
-  };
+
 
   const render = Handlebars.compile($('#repo-template').text());
 
   repoView.index = function() {
-    ui();
 
     $('#projects ul').append(
-      app.repos.with('name').map(render)
+      // I also filtered out the labs that start with a number and no language
+      app.repos.with('language').filter(repo => isNaN(repo.name.charAt(0))).map(render)
     );
   };
 

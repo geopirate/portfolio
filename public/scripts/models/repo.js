@@ -5,7 +5,7 @@ var app = app || {};
   const repos = {};
 
   repos.all = [];
-  console.log('in repos');
+
   repos.requestRepos = function(callback) {
     $.get('/github/user/repos')
     .then(data => repos.all = data, err => console.error(err))
