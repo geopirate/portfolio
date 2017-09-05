@@ -1,0 +1,23 @@
+[
+  {
+    "name": "PetSite",
+    "description": "This is a simple website built with only vanilla JS, CSS3 and HTML 5 using no external libraries.",
+    "language": "HTML",
+    "created": "2017-07-09T21:35:15Z",
+    "updated": "2017-07-10T14:12:45Z"
+  },
+  {
+    "name": "learning-journal",
+    "description": "This is a log I'm keeping on my reflections from learning at Code Fellows.",
+    "language": "markdown",
+    "created": "2017-08-16T12:55:15Z",
+    "updated": "2017-08-16T12:55:15Z"
+  },
+  {
+    "name": "portfolio",
+    "description": "This is a log I'm keeping on my reflections from learning at Code Fellows.",
+    "language": "markdown",
+    "created": "2017-08-16T12:55:15Z",
+    "updated": "2017-08-16T12:55:15Z"
+  }
+]
