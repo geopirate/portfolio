@@ -23,11 +23,8 @@
   "homepage": "https://github.com/geopirate/portfolio#readme",
   "dependencies": {
     "express": "^4.15.4",
-<<<<<<< HEAD
-    "nodemon": "^1.11.0"
-=======
+    "nodemon": "^1.11.0",
     "express-request-proxy": "^2.0.0"
->>>>>>> f5d8fc18246b65409b1becae14de365a1ba651e9
   },
   "devDependencies": {}
 }
