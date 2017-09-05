@@ -2,14 +2,13 @@
 var app = app || {};
 
 (function(module) {
-  const pictureView = {};
+  const carouselView = {};
 
-  pictureView.carousel = function(){
+  carouselView.carousel = () => {
     var $img = $('.single img');
     var $img2 = $('.double img');
     var $input = $('input[name=selection]');
     // for wider screens I show 2 images at once!
-    // edge case: inital load of double wide only shows one image
     function doubleWide(temp){
       if ($('.double')){
         var temp2 = parseInt(temp) + 1;
@@ -31,9 +30,9 @@ var app = app || {};
     $('.double img:nth-child(2)').fadeIn(2000);
   }
 
-  pictureView.initIndexPage = () => {
-    pictureView.carousel();
+  carouselView.initIndexPage = () => {
+    carouselView.carousel();
   };
 
-  module.pictureView = pictureView;
+  module.carouselView = carouselView;
 })(app);

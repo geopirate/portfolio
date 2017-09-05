@@ -4,7 +4,7 @@ var app = app || {};
 (function(module) {
   const aboutController = {};
 
-  aboutController.init = function() {
+  aboutController.init = () => {
     $('.content').hide();
     $('#about').fadeIn();
   }

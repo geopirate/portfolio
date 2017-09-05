@@ -4,7 +4,7 @@ var app = app || {};
 (function(module) {
   const projectsController = {};
 
-  projectsController.init = function() {
+  projectsController.init = () => {
     $('.content').hide();
     $('#projects').fadeIn();
   }
