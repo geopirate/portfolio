@@ -7,7 +7,7 @@ var app = app || {};
 
   const render = Handlebars.compile($('#repo-template').text());
 
-  repoView.index = function() {
+  repoView.index = () => {
 
     $('#projects ul').append(
       // I also filtered out the labs that start with a number and no language
