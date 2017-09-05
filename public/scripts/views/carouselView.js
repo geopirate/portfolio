@@ -3,7 +3,7 @@ var app = app || {};
 
 (function(module) {
   const carouselView = {};
-  console.log('in carousel view');
+
   carouselView.carousel = () => {
     var $img = $('.single img');
     var $img2 = $('.double img');
